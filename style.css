@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    /* border: 1px solid black; */
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("nature.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    padding: 40px;
+    width: 400px;
+    min-height: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(10px)
+}
+.heading{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+::placeholder{
+    color: white;
+}
+.input-div{
+    width: 100%;
+    position: relative;
+}
+.input-div input{
+    width: 100%;
+    border: 1px solid white;
+    padding: 16px 24px;
+    border-radius: 25px;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+}
+.input-div svg{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+.pass-svg{
+    transform: translateY(-70%);
+}
+.user-svg{
+    transform: translateY(-100%);
+}
+#username{
+    margin-bottom: 20px;
+}
+#password{
+    margin-bottom: 10px;
+}
+.rem-forget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+input[type="checkbox"]{
+    margin: 0 5px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
+span{
+    font-weight: 800;
+}
+.footer{
+    font-size: 14px;
+}
